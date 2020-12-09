@@ -15,12 +15,12 @@ import reportWebVitals from "./reportWebVitals";
 
 const myRouter = (
   <Router>
-    <div style={{backgroundColor:"red"}}>
-      <ul>
+    <div style={{backgroundColor:"red",color:"white" ,margin:"0px auto",padding:"10px"}}>
+      <ul style={{margin:"0px"}}>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/profile">Profile</Link>
+        <Link to="/about"> About</Link>
+        <Link to="/contact"> Contact</Link>
+        <Link to="/profile"> Profile</Link>
       </ul>
 
       <Route exact path="/" component={App}/>

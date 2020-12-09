@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 export default class Contact extends Component {
     render() {
         return (
-            <div>
+            <div className="App">
                 
-                <h1>Contact</h1>
+                <h1 style={{backgroundColor:"blue"}}>Contact</h1>
             </div>
         )
     }
